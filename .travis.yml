@@ -11,8 +11,7 @@ before_script:
   - sudo npm install -g ionic cordova
 
 script:
-  - ionic cordova build browser
-  - ionic cordova run browser
+  - ionic cordova build browser -- prod
  
 deploy:
  provider: pages
