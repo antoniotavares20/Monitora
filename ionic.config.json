@@ -1,5 +1,7 @@
 {
   "name": "MonitoraUFG1",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

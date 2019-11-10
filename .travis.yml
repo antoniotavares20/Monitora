@@ -8,11 +8,11 @@ branches:
   - master
   
 before_script:
-  - npm i cordova-plugin-ionic
+  - sudo npm install -g ionic cordova
 
 script:
-  - ionic cordova platform add browser
-  - ionic cordova build browser --prod
+  - ionic cordova build browser
+  - ionic cordova run browser
  
 deploy:
  provider: pages
