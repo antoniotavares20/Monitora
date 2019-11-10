@@ -2,7 +2,6 @@
   "name": "MonitoraUFG1",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "homepage": "https://antoniotavares20.github.io/Monitora/index.html",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -13,6 +12,7 @@
     "gh-pages": "ng build --base-href 'https://antoniotavares20.github.io/Monitora/' --prod && npx ngh --dir=www/"
   },
   "private": true,
+  
   "dependencies": {
     "@angular/common": "~8.1.2",
     "@angular/core": "~8.1.2",
