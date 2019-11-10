@@ -11,7 +11,7 @@ before_script:
   - npm i cordova-plugin-ionic
 
 script:
- - ionic cordova build browser -- prod
+ - ionic cordova build browser --prod
 
 deploy:
  provider: pages
